@@ -1,0 +1,15 @@
+{
+  "name": "mern-oath2",
+  "version": "1.0.0",
+  "description": "This project contains an example of a react app that connects to the express server through Hydra. It also makes use of Nginx as a reverse proxy.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:RickITKock/mern-stack-with-oath2.git"
+  },
+  "author": "Rick Kock",
+  "license": "ISC"
+}
