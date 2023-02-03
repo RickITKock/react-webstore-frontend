@@ -1,4 +1,10 @@
-In the project directory, you can run:
+In the project, you can install the dependencies by running the following command:
+
+```bash
+npm install
+```
+
+In the project directory, to run the application, you can run:
 
 ```bash
 npm start
