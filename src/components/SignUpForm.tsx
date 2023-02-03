@@ -1,3 +1,4 @@
+import axios from "axios";
 import React, { useState } from "react";
 
 function App() {
@@ -6,7 +7,16 @@ function App() {
 
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    alert("Submitting...");
+    axios
+      .post("http://localhost:8001/users", {
+        email: email,
+        password: password,
+      })
+      .then((response) => {
+        console.log(response);
+        setEmail("");
+        setPassword("");
+      });
   };
 
   return (

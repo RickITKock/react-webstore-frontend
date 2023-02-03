@@ -1,9 +1,14 @@
 import React from "react";
 import SignUpForm from "./components/SignUpForm";
+import UserList from "./components/UserList";
 
-// Extract the form in this file and turn it into a component
 function App() {
-  return <SignUpForm />;
+  return (
+    <>
+      <SignUpForm />
+      <UserList />
+    </>
+  );
 }
 
 export default App;
