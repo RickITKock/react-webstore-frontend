@@ -1,5 +1,9 @@
 In the project, you can install the dependencies by running the following command:
 
+> **Note**
+>
+> This project is part of a microservice. See microservice-setup project.
+
 ```bash
 npm install
 ```
